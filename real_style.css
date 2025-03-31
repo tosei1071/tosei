@@ -1,0 +1,280 @@
+
+
+*{
+    padding: 0px;/*set all padding zero*/
+    margin: 0px;  /*set all margin zero*/
+
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+
+header {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+.gameplay{
+    color: black; /** change color/
+    text-decoration: none;
+    font-size: 20px;  /* Set font size */
+    display: flex;  /* Enables flexbox layout */
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+header{
+    padding-left: 30px;  /*set padding*/
+    padding-bottom: 30px;  /*set padding*/
+    padding-right: 30px;  /*set padding*/
+    text-align: center; /* Centers the text */
+    background-color: grey;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.header-container {
+    display: flex;  /* Enables flexbox layout */
+    align-items: center;    /* Centers the text */
+    margin: 0px;
+    margin-top: 0;
+    padding-top: 0;
+}
+  
+  #logo_1{
+    width: 200px; /* bigger picture*/
+    height: auto; /* Keeps aspect ratio */
+    margin-right: 120px;   /*set margin*/
+    margin-top: 0;
+    padding-top: 0;
+}
+
+
+#header-1{
+    font-size: 60px;  /* Set font size */
+    margin-bottom: 20px;  /*set margin*/
+    color: black;/*chnage color*/
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#welcome{
+    text-align: center; /* Centers the text */
+    margin-top: 50px;  /*set margin*/
+    font-size: 25px;  /* Set font size */
+
+}
+
+.discri{
+    font-size: 30px;  /* Set font size */
+    padding-top: 50px;  /*set padding*/
+}
+
+#gaming img{
+    width: 40%; /* 40% width of the parent */
+    height: auto; /* Keeps aspect ratio */
+}
+
+.gamename1{
+    text-align: center; /* Centers the text */
+    padding-top: 30px;  /*set padding*/
+    padding-bottom: 30px;   /*set padding*/
+    color: black; /*change color*/
+    font-size: 30px;  /* Set font size */
+    margin-top: 30px; /*set margin*/
+}
+
+#gamename{
+    text-align: center; /* Centers the text */
+    padding-top: 30px;  /*set padding*/
+    padding-bottom: 30px;   /*set padding*/
+    color: black; /*change color*/
+    font-size: 30px;  /* Set font size */
+    margin-top: 30px; /*set margin*/
+}
+
+#contents{
+padding-top: 50px;  /*set padding*/
+padding-bottom: 50px; /*set padding*/
+margin-top: 50px;       /*set margin*/
+margin-bottom: 50px; /*set margin*/
+margin-left: 300px; /*set margin*/
+margin-right: 300px; /*set margin*/
+color:  black;  /*change  color*/
+background-color: grey; /*change background color*/
+}
+
+#contents h2{
+    padding-bottom: 30px;   /*set padding*/
+    text-align: center; /* Centers the text */
+    font-size: 50px;  /* Set font size */
+    background-color: grey; /*change background color*/
+}
+
+ol {
+    list-style-position: inside; /* Puts list markers inside the list item */
+    text-align: center; /* Centers the text */
+    padding-left: 0; /* add padding*/
+}
+.hero{
+    font-size: 30px;  /* Set font size */
+}
+
+
+.hero{
+text-align: center; /* Centers the text */
+color: black;   /*change color*/
+padding-bottom: 30px;  /*set padding*/
+background-color: grey; /*change background color*/
+}
+
+header nav ul{
+    display: flex;  /* Enables flexbox layout */
+    justify-content: space-around; /* Spaces items evenly */
+    list-style-type: none; /* No bullet points */
+
+}
+
+.about h1{  
+    text-align: center; /* Centers the text */
+}
+
+.about p {
+    font-size: 20px;  /* Set font size */
+    padding-bottom: 40px;   /*set padding*/
+    margin-right: 200px; /*set margin*/
+    margin-left: 200px;  /*set margin*/
+}
+
+
+
+.grid {
+    display: grid; /* Enables grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    gap: 10px; /* Gap between items */
+}
+
+
+.grid a {
+    display: block; /* Block-level element */
+    width: 100%; /* Full width */
+    height: 150px; /* Fixed height */
+}
+
+
+.grid img {
+    width: 100%; /* Full width */
+    height: 100%; /* Keeps aspect ratio */
+    object-fit: cover; /* Fills area without stretching */
+    display: block; /* Block-level image */
+    margin: 0 auto; /* Centers the image */
+}
+
+
+.resource h1{
+    text-align: center; /* Centers the text */
+    font-size: 30px; /* Set font size */
+}
+#page{
+    font-size: 50px; /* Set font size */
+    text-align: center; /* Centers the text */
+}
+
+.resource {
+    text-align: center;     /* Center the text */
+    font-size: 24px;        /* Set font size for the content */
+    background-color: white;/* Set background color to white */
+    margin: 40px auto;      /* Add margin on top and bottom, and center horizontally */
+    padding: 10px;     /* Add extra padding at the top */
+    width: 80%;             /* Set the width to 80% */
+    border-radius: 10px;    /* Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow around the box */
+}
+
+
+
+.resource a {
+    display: block;         /* Make the link a block element to center it */
+    margin: 20px auto;      /* Add margin  */
+    padding: 12px 25px;     /* Add padding  */
+    background-color: black;/* Set background color  */
+    color: white;           /* Set text color to white */
+    border-radius: 30px;    /* Round the corners */
+    text-decoration: none;  /* Remove the underline */
+    font-weight: bold;      /* Make the text bold */
+    font-size: 18px;        /* Set the font size */
+}
+
+#title_1 {
+    text-align: center;     /*  text to the center */
+    padding-top: 200px;      /* Add some space*/
+    padding-bottom: 200px;  /* Add some space */
+    font-size: 35px;        /* Increase the font size */
+    background-image: url('https://cdn.mos.cms.futurecdn.net/mEgH3Mdp6uyBLixzxPfFQh-1200-80.jpg');
+    color: #f0f0f0;
+    background-size: contain;
+    background-position: center; /* Center the image within the section */
+    background-repeat: no-repeat;
+}
+
+#title_2 {
+    text-align: center;     /*  text to the center */
+    padding-top: 200px;      /* Add some space*/
+    padding-bottom: 200px;  /* Add some space */
+    font-size: 50px;        /* Increase the font size */
+    background-image: url('https://edtechdigest.com/wp-content/uploads/2017/06/credit-kahoot.png');
+    color: grey ;            /* Dark text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better contrast */ 
+    background-size: contain;
+    background-position: center; /* Center the image within the section */
+    background-repeat: no-repeat;
+}
+
+#title_3 {
+    text-align: center;     /*  text to the center */
+    padding-top: 200px;      /* Add some space*/
+    padding-bottom: 200px;  /* Add some space */
+    font-size: 50px;        /* Increase the font size */
+    background-image: url('https://prodigygame.zendesk.com/hc/article_attachments/13379105485972');
+    background-size: contain;
+    background-position: center; /* Center the image within the section */
+    background-repeat: no-repeat;
+}
+
+footer {
+  background-color: grey;   /*change background color*/
+  color: white; /*change color*/
+  text-align: center;   /* Centers the text */
+  padding: 10px;    /*set padding*/
+}
+
+
+.email-section {
+    background-color: #f0f0f0; /* Light background */
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .email-text {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  
+  .email-link {
+    font-size: 18px;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+
